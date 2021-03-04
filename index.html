@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-image: url('bg1.jpg');">
+        <h1 style="text-align: center;">חמשת אתרים בעולם שביקרתי</h1>
+        <h2 style="text-align: center;">לחץ על כל אחת מהמדינות המסומנות</h2>
+    </div>
+
+    <map name="myMap">
+        <area shape="rect" coords="80,290,170,240" a href="spain.html" />
+        <area shape="rect" coords="250,290,390,200" a href="italy.html" />
+        <area shape="rect" coords="410,250,480,300" a href="greece.html" />
+        <area shape="rect" coords="500,240,660,300" a href="turkey.html" />
+        <area shape="rect" coords="550,320,640,390" a href="israel.html" />
+    </map>
+
+    <div style="background-image: url('bg2.jpg');">
+        <img src="europe_map.jpg" width="1000" height="600" usemap="#myMap">
+    </div>
+</body>
+
+</html>
